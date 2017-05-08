@@ -17,7 +17,6 @@
 		FA63930B1CA59070004C7CE2 /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392F91CA59070004C7CE2 /* pngrtran.c */; };
 		FA63930C1CA59070004C7CE2 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392FA1CA59070004C7CE2 /* pngrutil.c */; };
 		FA63930D1CA59070004C7CE2 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392FB1CA59070004C7CE2 /* pngset.c */; };
-		FA63930E1CA59070004C7CE2 /* pngtest.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392FD1CA59070004C7CE2 /* pngtest.c */; };
 		FA63930F1CA59070004C7CE2 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6392FF1CA59070004C7CE2 /* pngtrans.c */; };
 		FA6393101CA59070004C7CE2 /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6393001CA59070004C7CE2 /* pngwio.c */; };
 		FA6393111CA59070004C7CE2 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = FA6393011CA59070004C7CE2 /* pngwrite.c */; };
@@ -67,7 +66,6 @@
 		FA6392FA1CA59070004C7CE2 /* pngrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrutil.c; sourceTree = "<group>"; };
 		FA6392FB1CA59070004C7CE2 /* pngset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngset.c; sourceTree = "<group>"; };
 		FA6392FC1CA59070004C7CE2 /* pngstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngstruct.h; sourceTree = "<group>"; };
-		FA6392FD1CA59070004C7CE2 /* pngtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngtest.c; sourceTree = "<group>"; };
 		FA6392FE1CA59070004C7CE2 /* pngtest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngtest.png; sourceTree = "<group>"; };
 		FA6392FF1CA59070004C7CE2 /* pngtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngtrans.c; sourceTree = "<group>"; };
 		FA6393001CA59070004C7CE2 /* pngwio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwio.c; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				FA6392F91CA59070004C7CE2 /* pngrtran.c */,
 				FA6392FA1CA59070004C7CE2 /* pngrutil.c */,
 				FA6392FB1CA59070004C7CE2 /* pngset.c */,
-				FA6392FD1CA59070004C7CE2 /* pngtest.c */,
 				FA6392FF1CA59070004C7CE2 /* pngtrans.c */,
 				FA6393001CA59070004C7CE2 /* pngwio.c */,
 				FA6393011CA59070004C7CE2 /* pngwrite.c */,
@@ -229,7 +226,6 @@
 				FA6393121CA59070004C7CE2 /* pngwtran.c in Sources */,
 				FA63930C1CA59070004C7CE2 /* pngrutil.c in Sources */,
 				FA6393091CA59070004C7CE2 /* pngread.c in Sources */,
-				FA63930E1CA59070004C7CE2 /* pngtest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

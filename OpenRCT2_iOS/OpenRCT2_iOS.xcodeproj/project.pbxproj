@@ -27,9 +27,19 @@
 		A642E4C51EBFFBCE0031E201 /* libzip_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4C41EBFFBCD0031E201 /* libzip_iOS.framework */; };
 		A642E4C71EBFFC4A0031E201 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4C61EBFFC4A0031E201 /* libiconv.tbd */; };
 		A642E4CF1EC00D920031E201 /* libSDL2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4CE1EC00D790031E201 /* libSDL2_ttf.a */; };
-		A655A0F21EBC0B5900F5B78D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A655A0F11EBC0B5900F5B78D /* main.m */; };
-		A655A0F51EBC0B5900F5B78D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A655A0F41EBC0B5900F5B78D /* AppDelegate.m */; };
-		A655A0F81EBC0B5900F5B78D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A655A0F71EBC0B5900F5B78D /* ViewController.m */; };
+		A642E4E21EC014900031E201 /* Acid.json in Resources */ = {isa = PBXBuildFile; fileRef = A642E4D51EC014900031E201 /* Acid.json */; };
+		A642E4E31EC014900031E201 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = A642E4D61EC014900031E201 /* Data */; };
+		A642E4E41EC014900031E201 /* gameinst.xml in Resources */ = {isa = PBXBuildFile; fileRef = A642E4D71EC014900031E201 /* gameinst.xml */; };
+		A642E4E51EC014900031E201 /* Landscapes in Resources */ = {isa = PBXBuildFile; fileRef = A642E4D81EC014900031E201 /* Landscapes */; };
+		A642E4E61EC014900031E201 /* Manual in Resources */ = {isa = PBXBuildFile; fileRef = A642E4D91EC014900031E201 /* Manual */; };
+		A642E4E71EC014900031E201 /* MANUAL.PDF in Resources */ = {isa = PBXBuildFile; fileRef = A642E4DA1EC014900031E201 /* MANUAL.PDF */; };
+		A642E4E81EC014900031E201 /* ObjData in Resources */ = {isa = PBXBuildFile; fileRef = A642E4DB1EC014900031E201 /* ObjData */; };
+		A642E4E91EC014900031E201 /* RCT2.exe in Resources */ = {isa = PBXBuildFile; fileRef = A642E4DC1EC014900031E201 /* RCT2.exe */; };
+		A642E4EA1EC014900031E201 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = A642E4DD1EC014900031E201 /* Readme.txt */; };
+		A642E4EB1EC014900031E201 /* Saved Games in Resources */ = {isa = PBXBuildFile; fileRef = A642E4DE1EC014900031E201 /* Saved Games */; };
+		A642E4EC1EC014900031E201 /* Scenarios in Resources */ = {isa = PBXBuildFile; fileRef = A642E4DF1EC014900031E201 /* Scenarios */; };
+		A642E4ED1EC014900031E201 /* Tracks in Resources */ = {isa = PBXBuildFile; fileRef = A642E4E01EC014900031E201 /* Tracks */; };
+		A642E4EE1EC014900031E201 /* Version.txt in Resources */ = {isa = PBXBuildFile; fileRef = A642E4E11EC014900031E201 /* Version.txt */; };
 		A655A0FB1EBC0B5900F5B78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A655A0F91EBC0B5900F5B78D /* Main.storyboard */; };
 		A655A0FD1EBC0B5900F5B78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A655A0FC1EBC0B5900F5B78D /* Assets.xcassets */; };
 		A655A1001EBC0B5900F5B78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A655A0FE1EBC0B5900F5B78D /* LaunchScreen.storyboard */; };
@@ -479,6 +489,13 @@
 			remoteGlobalIDString = BE48FD6E07AFA17000BB41DA;
 			remoteInfo = "Static Library";
 		};
+		A642E4F21EC017740031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E4C91EC00D780031E201 /* SDL_ttf.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE48FD6807AFA17000BB41DA;
+			remoteInfo = "Static Library";
+		};
 		A655A4AF1EBC0C8300F5B78D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A655A4A91EBC0C8200F5B78D /* SDL.xcodeproj */;
@@ -524,12 +541,20 @@
 		A642E4C41EBFFBCD0031E201 /* libzip_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libzip_iOS.framework; path = "Libraries/libzip-1.2.0/xcode/Products/libzip_iOS.framework"; sourceTree = "<group>"; };
 		A642E4C61EBFFC4A0031E201 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		A642E4C91EC00D780031E201 /* SDL_ttf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_ttf.xcodeproj; path = "Libraries/SDL2_ttf-2.0.12/Xcode-iOS/SDL_ttf.xcodeproj"; sourceTree = "<group>"; };
+		A642E4D51EC014900031E201 /* Acid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Acid.json; path = ../../../../games/RollerCoasterTycoon2TTP_EN/Acid.json; sourceTree = "<group>"; };
+		A642E4D61EC014900031E201 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; path = ../../../../games/RollerCoasterTycoon2TTP_EN/Data; sourceTree = "<group>"; };
+		A642E4D71EC014900031E201 /* gameinst.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = gameinst.xml; path = ../../../../games/RollerCoasterTycoon2TTP_EN/gameinst.xml; sourceTree = "<group>"; };
+		A642E4D81EC014900031E201 /* Landscapes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Landscapes; path = ../../../../games/RollerCoasterTycoon2TTP_EN/Landscapes; sourceTree = "<group>"; };
+		A642E4D91EC014900031E201 /* Manual */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Manual; path = ../../../../games/RollerCoasterTycoon2TTP_EN/Manual; sourceTree = "<group>"; };
+		A642E4DA1EC014900031E201 /* MANUAL.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = MANUAL.PDF; path = ../../../../games/RollerCoasterTycoon2TTP_EN/MANUAL.PDF; sourceTree = "<group>"; };
+		A642E4DB1EC014900031E201 /* ObjData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ObjData; path = ../../../../games/RollerCoasterTycoon2TTP_EN/ObjData; sourceTree = "<group>"; };
+		A642E4DC1EC014900031E201 /* RCT2.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = RCT2.exe; path = ../../../../games/RollerCoasterTycoon2TTP_EN/RCT2.exe; sourceTree = "<group>"; };
+		A642E4DD1EC014900031E201 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Readme.txt; path = ../../../../games/RollerCoasterTycoon2TTP_EN/Readme.txt; sourceTree = "<group>"; };
+		A642E4DE1EC014900031E201 /* Saved Games */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Saved Games"; path = "../../../../games/RollerCoasterTycoon2TTP_EN/Saved Games"; sourceTree = "<group>"; };
+		A642E4DF1EC014900031E201 /* Scenarios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scenarios; path = ../../../../games/RollerCoasterTycoon2TTP_EN/Scenarios; sourceTree = "<group>"; };
+		A642E4E01EC014900031E201 /* Tracks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Tracks; path = ../../../../games/RollerCoasterTycoon2TTP_EN/Tracks; sourceTree = "<group>"; };
+		A642E4E11EC014900031E201 /* Version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Version.txt; path = ../../../../games/RollerCoasterTycoon2TTP_EN/Version.txt; sourceTree = "<group>"; };
 		A655A0ED1EBC0B5900F5B78D /* OpenRCT2_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenRCT2_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A655A0F11EBC0B5900F5B78D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A655A0F31EBC0B5900F5B78D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A655A0F41EBC0B5900F5B78D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A655A0F61EBC0B5900F5B78D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A655A0F71EBC0B5900F5B78D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A655A0FA1EBC0B5900F5B78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A655A0FC1EBC0B5900F5B78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A655A0FF1EBC0B5900F5B78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1163,9 +1188,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A642E4D41EC014740031E201 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				A642E4D51EC014900031E201 /* Acid.json */,
+				A642E4D61EC014900031E201 /* Data */,
+				A642E4D71EC014900031E201 /* gameinst.xml */,
+				A642E4D81EC014900031E201 /* Landscapes */,
+				A642E4D91EC014900031E201 /* Manual */,
+				A642E4DA1EC014900031E201 /* MANUAL.PDF */,
+				A642E4DB1EC014900031E201 /* ObjData */,
+				A642E4DC1EC014900031E201 /* RCT2.exe */,
+				A642E4DD1EC014900031E201 /* Readme.txt */,
+				A642E4DE1EC014900031E201 /* Saved Games */,
+				A642E4DF1EC014900031E201 /* Scenarios */,
+				A642E4E01EC014900031E201 /* Tracks */,
+				A642E4E11EC014900031E201 /* Version.txt */,
+			);
+			name = Bundle;
+			sourceTree = "<group>";
+		};
 		A655A0E41EBC0B5800F5B78D = {
 			isa = PBXGroup;
 			children = (
+				A642E4D41EC014740031E201 /* Bundle */,
 				A655A4A81EBC0C7800F5B78D /* Libraries */,
 				A655A1071EBC0B7100F5B78D /* openrct2 */,
 				A655A0EF1EBC0B5900F5B78D /* OpenRCT2_iOS */,
@@ -1185,10 +1231,6 @@
 		A655A0EF1EBC0B5900F5B78D /* OpenRCT2_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A655A0F31EBC0B5900F5B78D /* AppDelegate.h */,
-				A655A0F41EBC0B5900F5B78D /* AppDelegate.m */,
-				A655A0F61EBC0B5900F5B78D /* ViewController.h */,
-				A655A0F71EBC0B5900F5B78D /* ViewController.m */,
 				A655A0F91EBC0B5900F5B78D /* Main.storyboard */,
 				A655A0FC1EBC0B5900F5B78D /* Assets.xcassets */,
 				A655A0FE1EBC0B5900F5B78D /* LaunchScreen.storyboard */,
@@ -1201,7 +1243,6 @@
 		A655A0F01EBC0B5900F5B78D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A655A0F11EBC0B5900F5B78D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2052,6 +2093,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A642E4F31EC017740031E201 /* PBXTargetDependency */,
 			);
 			name = OpenRCT2_iOS;
 			productName = OpenRCT2_iOS;
@@ -2235,8 +2277,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A655A1001EBC0B5900F5B78D /* LaunchScreen.storyboard in Resources */,
+				A642E4E51EC014900031E201 /* Landscapes in Resources */,
 				A655A0FD1EBC0B5900F5B78D /* Assets.xcassets in Resources */,
+				A642E4E31EC014900031E201 /* Data in Resources */,
+				A642E4E91EC014900031E201 /* RCT2.exe in Resources */,
+				A642E4ED1EC014900031E201 /* Tracks in Resources */,
+				A642E4E61EC014900031E201 /* Manual in Resources */,
+				A642E4EA1EC014900031E201 /* Readme.txt in Resources */,
+				A642E4E21EC014900031E201 /* Acid.json in Resources */,
+				A642E4E81EC014900031E201 /* ObjData in Resources */,
 				A655A0FB1EBC0B5900F5B78D /* Main.storyboard in Resources */,
+				A642E4EB1EC014900031E201 /* Saved Games in Resources */,
+				A642E4E71EC014900031E201 /* MANUAL.PDF in Resources */,
+				A642E4EC1EC014900031E201 /* Scenarios in Resources */,
+				A642E4E41EC014900031E201 /* gameinst.xml in Resources */,
+				A642E4EE1EC014900031E201 /* Version.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2274,7 +2329,6 @@
 				A655A4651EBC0B7200F5B78D /* loadsave.c in Sources */,
 				A655A4861EBC0B7300F5B78D /* tile_inspector.c in Sources */,
 				A655A4851EBC0B7300F5B78D /* themes.c in Sources */,
-				A655A0F81EBC0B5900F5B78D /* ViewController.m in Sources */,
 				A655A4271EBC0B7200F5B78D /* pirate_ship.c in Sources */,
 				A655A44D1EBC0B7200F5B78D /* about.c in Sources */,
 				A655A3D21EBC0B7200F5B78D /* peep_data.c in Sources */,
@@ -2467,7 +2521,6 @@
 				A655A4621EBC0B7200F5B78D /* install_track.c in Sources */,
 				A655A4371EBC0B7200F5B78D /* suspended_monorail.c in Sources */,
 				A655A4061EBC0B7200F5B78D /* virginia_reel.c in Sources */,
-				A655A0F51EBC0B5900F5B78D /* AppDelegate.m in Sources */,
 				A655A37E1EBC0B7200F5B78D /* FileClassifier.cpp in Sources */,
 				A655A3471EBC0B7200F5B78D /* AudioChannel.cpp in Sources */,
 				A655A43A1EBC0B7200F5B78D /* vehicle_paint.c in Sources */,
@@ -2571,7 +2624,6 @@
 				A655A3E71EBC0B7200F5B78D /* rct2.c in Sources */,
 				A655A3B91EBC0B7200F5B78D /* SceneryGroupObject.cpp in Sources */,
 				A655A4A01EBC0B7300F5B78D /* mapgen.c in Sources */,
-				A655A0F21EBC0B5900F5B78D /* main.m in Sources */,
 				A655A3CA1EBC0B7200F5B78D /* paint_helpers.c in Sources */,
 				A655A40A1EBC0B7200F5B78D /* car_ride.c in Sources */,
 				A655A3FC1EBC0B7200F5B78D /* mini_suspended_coaster.c in Sources */,
@@ -2606,6 +2658,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A642E4F31EC017740031E201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = A642E4F21EC017740031E201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A655A0F91EBC0B5900F5B78D /* Main.storyboard */ = {
