@@ -2792,6 +2792,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				DEVELOPMENT_TEAM = 4MQWZS5V6J;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries/libzip-1.2.0/xcode/Products",
@@ -2803,6 +2804,7 @@
 					OPENRCT2_IOS,
 					DISABLE_OPENGL,
 					DISABLE_NETWORK,
+					"PNG_ARM_NEON_OPT=0",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -2817,6 +2819,7 @@
 					"${PROJECT_DIR}/../libxc/include",
 				);
 				INFOPLIST_FILE = OpenRCT2_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/Libraries/libcurl/lib",
@@ -2841,6 +2844,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				DEVELOPMENT_TEAM = 4MQWZS5V6J;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries/libzip-1.2.0/xcode/Products",
@@ -2852,6 +2856,7 @@
 					OPENRCT2_IOS,
 					DISABLE_OPENGL,
 					DISABLE_NETWORK,
+					"PNG_ARM_NEON_OPT=0",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -2866,6 +2871,7 @@
 					"${PROJECT_DIR}/../libxc/include",
 				);
 				INFOPLIST_FILE = OpenRCT2_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"${PROJECT_DIR}/Libraries/libcurl/lib",

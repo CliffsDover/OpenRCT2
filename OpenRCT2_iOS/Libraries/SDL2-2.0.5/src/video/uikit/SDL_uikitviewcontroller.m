@@ -160,7 +160,8 @@ SDL_AppleTVControllerUIHintChanged(void *userdata, const char *name, const char 
 
 - (BOOL)prefersStatusBarHidden
 {
-    return (window->flags & (SDL_WINDOW_FULLSCREEN|SDL_WINDOW_BORDERLESS)) != 0;
+    //return (window->flags & (SDL_WINDOW_FULLSCREEN|SDL_WINDOW_BORDERLESS)) != 0;
+    return YES;
 }
 #endif
 
