@@ -695,7 +695,12 @@ void platform_resolve_user_data_path()
 	char buffer[MAX_PATH];
 	log_verbose("buffer = '%s'", buffer);
 
+#ifdef OPENRCT2_IOS
+    char *homedir = getenv("HOME");
+    homedir = strcat( homedir, "/Documents" );
+#else
 	const char *homedir = getpwuid(getuid())->pw_dir;
+#endif // OPENRCT2_IOS
 	platform_posix_sub_user_data_path(buffer, MAX_PATH, homedir);
 
 	log_verbose("OpenRCT2 user data directory = '%s'", buffer);
