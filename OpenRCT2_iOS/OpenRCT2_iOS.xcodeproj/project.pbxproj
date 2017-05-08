@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A642E4701EBFF5860031E201 /* iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = A642E46F1EBFF5860031E201 /* iOS.m */; };
+		A642E4831EBFF8790031E201 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4751EBFF8790031E201 /* AudioToolbox.framework */; };
+		A642E4841EBFF8790031E201 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4761EBFF8790031E201 /* AVFoundation.framework */; };
+		A642E4851EBFF8790031E201 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4771EBFF8790031E201 /* CoreFoundation.framework */; };
+		A642E4861EBFF8790031E201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4781EBFF8790031E201 /* CoreGraphics.framework */; };
+		A642E4871EBFF8790031E201 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4791EBFF8790031E201 /* CoreImage.framework */; };
+		A642E4881EBFF8790031E201 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E47A1EBFF8790031E201 /* CoreMotion.framework */; };
+		A642E4891EBFF8790031E201 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E47B1EBFF8790031E201 /* CoreText.framework */; };
+		A642E48A1EBFF8790031E201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E47C1EBFF8790031E201 /* Foundation.framework */; };
+		A642E48B1EBFF8790031E201 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E47D1EBFF8790031E201 /* GameController.framework */; };
+		A642E48C1EBFF8790031E201 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E47E1EBFF8790031E201 /* ImageIO.framework */; };
+		A642E48D1EBFF8790031E201 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E47F1EBFF8790031E201 /* MobileCoreServices.framework */; };
+		A642E48E1EBFF8790031E201 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4801EBFF8790031E201 /* OpenGLES.framework */; };
+		A642E48F1EBFF8790031E201 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4811EBFF8790031E201 /* QuartzCore.framework */; };
+		A642E4901EBFF8790031E201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4821EBFF8790031E201 /* UIKit.framework */; };
+		A642E4921EBFF8880031E201 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4911EBFF8880031E201 /* libz.tbd */; };
+		A642E4991EBFF9840031E201 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4981EBFF97C0031E201 /* libpng.a */; };
+		A642E4C51EBFFBCE0031E201 /* libzip_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4C41EBFFBCD0031E201 /* libzip_iOS.framework */; };
+		A642E4C71EBFFC4A0031E201 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4C61EBFFC4A0031E201 /* libiconv.tbd */; };
+		A642E4CF1EC00D920031E201 /* libSDL2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A642E4CE1EC00D790031E201 /* libSDL2_ttf.a */; };
 		A655A0F21EBC0B5900F5B78D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A655A0F11EBC0B5900F5B78D /* main.m */; };
 		A655A0F51EBC0B5900F5B78D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A655A0F41EBC0B5900F5B78D /* AppDelegate.m */; };
 		A655A0F81EBC0B5900F5B78D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A655A0F71EBC0B5900F5B78D /* ViewController.m */; };
@@ -156,7 +176,6 @@
 		A655A3D31EBC0B7200F5B78D /* staff.c in Sources */ = {isa = PBXBuildFile; fileRef = A655A2251EBC0B7200F5B78D /* staff.c */; };
 		A655A3D41EBC0B7200F5B78D /* crash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A655A2281EBC0B7200F5B78D /* crash.cpp */; };
 		A655A3D51EBC0B7200F5B78D /* linux.c in Sources */ = {isa = PBXBuildFile; fileRef = A655A22A1EBC0B7200F5B78D /* linux.c */; };
-		A655A3D61EBC0B7200F5B78D /* macos.m in Sources */ = {isa = PBXBuildFile; fileRef = A655A22B1EBC0B7200F5B78D /* macos.m */; };
 		A655A3D71EBC0B7200F5B78D /* posix.c in Sources */ = {isa = PBXBuildFile; fileRef = A655A22D1EBC0B7200F5B78D /* posix.c */; };
 		A655A3D81EBC0B7200F5B78D /* shared.c in Sources */ = {isa = PBXBuildFile; fileRef = A655A22E1EBC0B7200F5B78D /* shared.c */; };
 		A655A3D91EBC0B7200F5B78D /* windows.c in Sources */ = {isa = PBXBuildFile; fileRef = A655A22F1EBC0B7200F5B78D /* windows.c */; };
@@ -365,9 +384,146 @@
 		A655A4A51EBC0B7300F5B78D /* sprite.c in Sources */ = {isa = PBXBuildFile; fileRef = A655A3401EBC0B7200F5B78D /* sprite.c */; };
 		A655A4A61EBC0B7300F5B78D /* tile_inspector.c in Sources */ = {isa = PBXBuildFile; fileRef = A655A3421EBC0B7200F5B78D /* tile_inspector.c */; };
 		A655A4A71EBC0B7300F5B78D /* wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A655A3441EBC0B7200F5B78D /* wall.cpp */; };
+		A655A4B31EBC0CA300F5B78D /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A655A4B01EBC0C8300F5B78D /* libSDL2.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A642E4971EBFF97C0031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E4931EBFF97C0031E201 /* libpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA6392DC1CA5903D004C7CE2;
+			remoteInfo = libpng;
+		};
+		A642E4AD1EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BDC71E015B182B200236D3C;
+			remoteInfo = libzip_iOS;
+		};
+		A642E4AF1EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B01D68B15B2F3F1002D5007;
+			remoteInfo = libzip;
+		};
+		A642E4B11EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B01D6FD15B2F4B1002D5007;
+			remoteInfo = zipmerge;
+		};
+		A642E4B31EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B01D71315B2F4EB002D5007;
+			remoteInfo = zipcmp;
+		};
+		A642E4B51EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D7E35371B3305FB00022624;
+			remoteInfo = "in-memory";
+		};
+		A642E4B71EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BACD5C115BC2DC900920691;
+			remoteInfo = add_from_filep;
+		};
+		A642E4B91EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BACD5D015BC2DF200920691;
+			remoteInfo = fopen_unchanged;
+		};
+		A642E4BB1EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BACD5DF15BC2F3700920691;
+			remoteInfo = fread;
+		};
+		A642E4BD1EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BD6CB6C19E71CD100710654;
+			remoteInfo = hole;
+		};
+		A642E4BF1EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BACD58915BC2CEA00920691;
+			remoteInfo = ziptool;
+		};
+		A642E4C11EBFFAB70031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4BACD65015BC301300920691;
+			remoteInfo = tryopen;
+		};
+		A642E4CD1EC00D790031E201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642E4C91EC00D780031E201 /* SDL_ttf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE48FD6E07AFA17000BB41DA;
+			remoteInfo = "Static Library";
+		};
+		A655A4AF1EBC0C8300F5B78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A655A4A91EBC0C8200F5B78D /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD6526630DE8FCCB002AD96B;
+			remoteInfo = libSDL;
+		};
+		A655A4B11EBC0C8300F5B78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A655A4A91EBC0C8200F5B78D /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAB598141BB5C1B100BE72C5;
+			remoteInfo = "libSDL-tv";
+		};
+		A655A4C91EBC0FB000F5B78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A655A4C51EBC0FB000F5B78D /* freetype2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6382B1B10FB0FC5100ECAC02;
+			remoteInfo = Freetype2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A642E46F1EBFF5860031E201 /* iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOS.m; sourceTree = "<group>"; };
+		A642E4751EBFF8790031E201 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A642E4761EBFF8790031E201 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A642E4771EBFF8790031E201 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A642E4781EBFF8790031E201 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A642E4791EBFF8790031E201 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A642E47A1EBFF8790031E201 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A642E47B1EBFF8790031E201 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A642E47C1EBFF8790031E201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A642E47D1EBFF8790031E201 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		A642E47E1EBFF8790031E201 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A642E47F1EBFF8790031E201 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A642E4801EBFF8790031E201 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A642E4811EBFF8790031E201 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A642E4821EBFF8790031E201 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A642E4911EBFF8880031E201 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A642E4931EBFF97C0031E201 /* libpng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpng.xcodeproj; path = Libraries/libpng/libpng.xcodeproj; sourceTree = "<group>"; };
+		A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libzip.xcodeproj; path = "Libraries/libzip-1.2.0/xcode/libzip.xcodeproj"; sourceTree = "<group>"; };
+		A642E4C41EBFFBCD0031E201 /* libzip_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libzip_iOS.framework; path = "Libraries/libzip-1.2.0/xcode/Products/libzip_iOS.framework"; sourceTree = "<group>"; };
+		A642E4C61EBFFC4A0031E201 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		A642E4C91EC00D780031E201 /* SDL_ttf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_ttf.xcodeproj; path = "Libraries/SDL2_ttf-2.0.12/Xcode-iOS/SDL_ttf.xcodeproj"; sourceTree = "<group>"; };
 		A655A0ED1EBC0B5900F5B78D /* OpenRCT2_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenRCT2_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A655A0F11EBC0B5900F5B78D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A655A0F31EBC0B5900F5B78D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -649,7 +805,6 @@
 		A655A2281EBC0B7200F5B78D /* crash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crash.cpp; sourceTree = "<group>"; };
 		A655A2291EBC0B7200F5B78D /* crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crash.h; sourceTree = "<group>"; };
 		A655A22A1EBC0B7200F5B78D /* linux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linux.c; sourceTree = "<group>"; };
-		A655A22B1EBC0B7200F5B78D /* macos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = macos.m; sourceTree = "<group>"; };
 		A655A22C1EBC0B7200F5B78D /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
 		A655A22D1EBC0B7200F5B78D /* posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = posix.c; sourceTree = "<group>"; };
 		A655A22E1EBC0B7200F5B78D /* shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shared.c; sourceTree = "<group>"; };
@@ -916,6 +1071,8 @@
 		A655A3431EBC0B7200F5B78D /* tile_inspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tile_inspector.h; sourceTree = "<group>"; };
 		A655A3441EBC0B7200F5B78D /* wall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wall.cpp; sourceTree = "<group>"; };
 		A655A3451EBC0B7200F5B78D /* water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = water.h; sourceTree = "<group>"; };
+		A655A4A91EBC0C8200F5B78D /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "Libraries/SDL2-2.0.5/Xcode-iOS/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
+		A655A4C51EBC0FB000F5B78D /* freetype2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = freetype2.xcodeproj; path = "Libraries/freetype2-ios/freetype2.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -923,18 +1080,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A642E4CF1EC00D920031E201 /* libSDL2_ttf.a in Frameworks */,
+				A642E4C71EBFFC4A0031E201 /* libiconv.tbd in Frameworks */,
+				A642E4991EBFF9840031E201 /* libpng.a in Frameworks */,
+				A642E4921EBFF8880031E201 /* libz.tbd in Frameworks */,
+				A642E4C51EBFFBCE0031E201 /* libzip_iOS.framework in Frameworks */,
+				A642E4831EBFF8790031E201 /* AudioToolbox.framework in Frameworks */,
+				A642E4841EBFF8790031E201 /* AVFoundation.framework in Frameworks */,
+				A642E4851EBFF8790031E201 /* CoreFoundation.framework in Frameworks */,
+				A642E4861EBFF8790031E201 /* CoreGraphics.framework in Frameworks */,
+				A642E4871EBFF8790031E201 /* CoreImage.framework in Frameworks */,
+				A642E4881EBFF8790031E201 /* CoreMotion.framework in Frameworks */,
+				A642E4891EBFF8790031E201 /* CoreText.framework in Frameworks */,
+				A642E48A1EBFF8790031E201 /* Foundation.framework in Frameworks */,
+				A642E48B1EBFF8790031E201 /* GameController.framework in Frameworks */,
+				A642E48C1EBFF8790031E201 /* ImageIO.framework in Frameworks */,
+				A642E48D1EBFF8790031E201 /* MobileCoreServices.framework in Frameworks */,
+				A642E48E1EBFF8790031E201 /* OpenGLES.framework in Frameworks */,
+				A642E48F1EBFF8790031E201 /* QuartzCore.framework in Frameworks */,
+				A642E4901EBFF8790031E201 /* UIKit.framework in Frameworks */,
+				A655A4B31EBC0CA300F5B78D /* libSDL2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A642E4741EBFF8790031E201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A642E4C61EBFFC4A0031E201 /* libiconv.tbd */,
+				A642E4911EBFF8880031E201 /* libz.tbd */,
+				A642E4751EBFF8790031E201 /* AudioToolbox.framework */,
+				A642E4761EBFF8790031E201 /* AVFoundation.framework */,
+				A642E4771EBFF8790031E201 /* CoreFoundation.framework */,
+				A642E4781EBFF8790031E201 /* CoreGraphics.framework */,
+				A642E4791EBFF8790031E201 /* CoreImage.framework */,
+				A642E47A1EBFF8790031E201 /* CoreMotion.framework */,
+				A642E47B1EBFF8790031E201 /* CoreText.framework */,
+				A642E47C1EBFF8790031E201 /* Foundation.framework */,
+				A642E47D1EBFF8790031E201 /* GameController.framework */,
+				A642E47E1EBFF8790031E201 /* ImageIO.framework */,
+				A642E47F1EBFF8790031E201 /* MobileCoreServices.framework */,
+				A642E4801EBFF8790031E201 /* OpenGLES.framework */,
+				A642E4811EBFF8790031E201 /* QuartzCore.framework */,
+				A642E4821EBFF8790031E201 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A642E4941EBFF97C0031E201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A642E4981EBFF97C0031E201 /* libpng.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A642E49B1EBFFAB70031E201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A642E4AE1EBFFAB70031E201 /* libzip_iOS.framework */,
+				A642E4B01EBFFAB70031E201 /* libzip.framework */,
+				A642E4B21EBFFAB70031E201 /* zipmerge */,
+				A642E4B41EBFFAB70031E201 /* zipcmp */,
+				A642E4B61EBFFAB70031E201 /* in-memory */,
+				A642E4B81EBFFAB70031E201 /* add_from_filep */,
+				A642E4BA1EBFFAB70031E201 /* fopen_unchanged */,
+				A642E4BC1EBFFAB70031E201 /* fread */,
+				A642E4BE1EBFFAB70031E201 /* hole */,
+				A642E4C01EBFFAB70031E201 /* ziptool */,
+				A642E4C21EBFFAB70031E201 /* tryopen */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A642E4CA1EC00D780031E201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A642E4CE1EC00D790031E201 /* libSDL2_ttf.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A655A0E41EBC0B5800F5B78D = {
 			isa = PBXGroup;
 			children = (
+				A655A4A81EBC0C7800F5B78D /* Libraries */,
 				A655A1071EBC0B7100F5B78D /* openrct2 */,
 				A655A0EF1EBC0B5900F5B78D /* OpenRCT2_iOS */,
 				A655A0EE1EBC0B5900F5B78D /* Products */,
+				A642E4741EBFF8790031E201 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1397,10 +1633,10 @@
 		A655A2271EBC0B7200F5B78D /* platform */ = {
 			isa = PBXGroup;
 			children = (
+				A642E46F1EBFF5860031E201 /* iOS.m */,
 				A655A2281EBC0B7200F5B78D /* crash.cpp */,
 				A655A2291EBC0B7200F5B78D /* crash.h */,
 				A655A22A1EBC0B7200F5B78D /* linux.c */,
-				A655A22B1EBC0B7200F5B78D /* macos.m */,
 				A655A22C1EBC0B7200F5B78D /* platform.h */,
 				A655A22D1EBC0B7200F5B78D /* posix.c */,
 				A655A22E1EBC0B7200F5B78D /* shared.c */,
@@ -1772,6 +2008,36 @@
 			path = world;
 			sourceTree = "<group>";
 		};
+		A655A4A81EBC0C7800F5B78D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A642E4C41EBFFBCD0031E201 /* libzip_iOS.framework */,
+				A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */,
+				A642E4931EBFF97C0031E201 /* libpng.xcodeproj */,
+				A655A4C51EBC0FB000F5B78D /* freetype2.xcodeproj */,
+				A642E4C91EC00D780031E201 /* SDL_ttf.xcodeproj */,
+				A655A4A91EBC0C8200F5B78D /* SDL.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		A655A4AA1EBC0C8200F5B78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A655A4B01EBC0C8300F5B78D /* libSDL2.a */,
+				A655A4B21EBC0C8300F5B78D /* libSDL2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A655A4C61EBC0FB000F5B78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A655A4CA1EBC0FB000F5B78D /* libFreetype2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1819,12 +2085,149 @@
 			mainGroup = A655A0E41EBC0B5800F5B78D;
 			productRefGroup = A655A0EE1EBC0B5900F5B78D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A655A4C61EBC0FB000F5B78D /* Products */;
+					ProjectRef = A655A4C51EBC0FB000F5B78D /* freetype2.xcodeproj */;
+				},
+				{
+					ProductGroup = A642E4941EBFF97C0031E201 /* Products */;
+					ProjectRef = A642E4931EBFF97C0031E201 /* libpng.xcodeproj */;
+				},
+				{
+					ProductGroup = A642E49B1EBFFAB70031E201 /* Products */;
+					ProjectRef = A642E49A1EBFFAB70031E201 /* libzip.xcodeproj */;
+				},
+				{
+					ProductGroup = A655A4AA1EBC0C8200F5B78D /* Products */;
+					ProjectRef = A655A4A91EBC0C8200F5B78D /* SDL.xcodeproj */;
+				},
+				{
+					ProductGroup = A642E4CA1EC00D780031E201 /* Products */;
+					ProjectRef = A642E4C91EC00D780031E201 /* SDL_ttf.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A655A0EC1EBC0B5900F5B78D /* OpenRCT2_iOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A642E4981EBFF97C0031E201 /* libpng.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpng.a;
+			remoteRef = A642E4971EBFF97C0031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4AE1EBFFAB70031E201 /* libzip_iOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libzip_iOS.framework;
+			remoteRef = A642E4AD1EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4B01EBFFAB70031E201 /* libzip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = libzip.framework;
+			remoteRef = A642E4AF1EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4B21EBFFAB70031E201 /* zipmerge */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = zipmerge;
+			remoteRef = A642E4B11EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4B41EBFFAB70031E201 /* zipcmp */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = zipcmp;
+			remoteRef = A642E4B31EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4B61EBFFAB70031E201 /* in-memory */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "in-memory";
+			remoteRef = A642E4B51EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4B81EBFFAB70031E201 /* add_from_filep */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = add_from_filep;
+			remoteRef = A642E4B71EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4BA1EBFFAB70031E201 /* fopen_unchanged */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = fopen_unchanged;
+			remoteRef = A642E4B91EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4BC1EBFFAB70031E201 /* fread */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = fread;
+			remoteRef = A642E4BB1EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4BE1EBFFAB70031E201 /* hole */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = hole;
+			remoteRef = A642E4BD1EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4C01EBFFAB70031E201 /* ziptool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = ziptool;
+			remoteRef = A642E4BF1EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4C21EBFFAB70031E201 /* tryopen */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tryopen;
+			remoteRef = A642E4C11EBFFAB70031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A642E4CE1EC00D790031E201 /* libSDL2_ttf.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2_ttf.a;
+			remoteRef = A642E4CD1EC00D790031E201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A655A4B01EBC0C8300F5B78D /* libSDL2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2.a;
+			remoteRef = A655A4AF1EBC0C8300F5B78D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A655A4B21EBC0C8300F5B78D /* libSDL2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2.a;
+			remoteRef = A655A4B11EBC0C8300F5B78D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A655A4CA1EBC0FB000F5B78D /* libFreetype2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFreetype2.a;
+			remoteRef = A655A4C91EBC0FB000F5B78D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A655A0EB1EBC0B5900F5B78D /* Resources */ = {
@@ -1988,7 +2391,6 @@
 				A655A42C1EBC0B7200F5B78D /* track.c in Sources */,
 				A655A4081EBC0B7200F5B78D /* wooden_roller_coaster.c in Sources */,
 				A655A3731EBC0B7200F5B78D /* font.c in Sources */,
-				A655A3D61EBC0B7200F5B78D /* macos.m in Sources */,
 				A655A4921EBC0B7300F5B78D /* track_place.c in Sources */,
 				A655A4991EBC0B7300F5B78D /* Duck.cpp in Sources */,
 				A655A4951EBC0B7300F5B78D /* water.c in Sources */,
@@ -2195,6 +2597,7 @@
 				A655A34E1EBC0B7200F5B78D /* ConvertCommand.cpp in Sources */,
 				A655A3CB1EBC0B7200F5B78D /* litter.c in Sources */,
 				A655A39B1EBC0B7200F5B78D /* utf8.c in Sources */,
+				A642E4701EBFF5860031E201 /* iOS.m in Sources */,
 				A655A4481EBC0B7200F5B78D /* TitleSequenceManager.cpp in Sources */,
 				A655A4751EBC0B7300F5B78D /* publisher_credits.c in Sources */,
 				A655A3981EBC0B7200F5B78D /* localisation.c in Sources */,
@@ -2256,8 +2659,10 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					OPENGL_NO_LINK,
+					"OPENRCT2_BUILD_INFO_HEADER=\"\\\"$(DERIVED_FILE_DIR)/gitversion.h\\\"\"",
 					"DEBUG=1",
-					"$(inherited)",
+					DISABLE_OPENGL,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -2302,6 +2707,10 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					OPENGL_NO_LINK,
+					"OPENRCT2_BUILD_INFO_HEADER=\"\\\"$(DERIVED_FILE_DIR)/gitversion.h\\\"\"",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -2320,9 +2729,46 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNREACHABLE_CODE = NO;
 				DEVELOPMENT_TEAM = 4MQWZS5V6J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/libzip-1.2.0/xcode/Products",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__ENABLE_LIGHTFX__,
+					NO_RCT2,
+					OPENRCT2_IOS,
+					DISABLE_OPENGL,
+					DISABLE_NETWORK,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Libraries/SDL2-2.0.5/include",
+					"${PROJECT_DIR}/Libraries/SDL2_ttf-2.0.12",
+					"${PROJECT_DIR}/Libraries/libcurl/include/",
+					"${PROJECT_DIR}/Libraries/libpng/libpng",
+					"${PROJECT_DIR}/Libraries/libjansson/include",
+					"${PROJECT_DIR}/../libxc/include",
+				);
 				INFOPLIST_FILE = OpenRCT2_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Libraries/libcurl/lib",
+					"${PROJECT_DIR}/Libraries/libspeexdsp/lib",
+					"${PROJECT_DIR}/Libraries/libjansson/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lcurl",
+					"-lz",
+					"-lspeexdsp",
+					"-ljansson",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dancingbottle.OpenRCT2-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2332,9 +2778,46 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNREACHABLE_CODE = NO;
 				DEVELOPMENT_TEAM = 4MQWZS5V6J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/libzip-1.2.0/xcode/Products",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__ENABLE_LIGHTFX__,
+					NO_RCT2,
+					OPENRCT2_IOS,
+					DISABLE_OPENGL,
+					DISABLE_NETWORK,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Libraries/SDL2-2.0.5/include",
+					"${PROJECT_DIR}/Libraries/SDL2_ttf-2.0.12",
+					"${PROJECT_DIR}/Libraries/libcurl/include/",
+					"${PROJECT_DIR}/Libraries/libpng/libpng",
+					"${PROJECT_DIR}/Libraries/libjansson/include",
+					"${PROJECT_DIR}/../libxc/include",
+				);
 				INFOPLIST_FILE = OpenRCT2_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Libraries/libcurl/lib",
+					"${PROJECT_DIR}/Libraries/libspeexdsp/lib",
+					"${PROJECT_DIR}/Libraries/libjansson/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lcurl",
+					"-lz",
+					"-lspeexdsp",
+					"-ljansson",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dancingbottle.OpenRCT2-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2359,6 +2842,7 @@
 				A655A1061EBC0B5900F5B78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

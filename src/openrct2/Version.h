@@ -50,6 +50,11 @@
 #ifdef __FREEBSD__
     #define OPENRCT2_PLATFORM       "FreeBSD"
 #endif
+#ifdef OPENRCT2_IOS
+#ifdef __IPHONEOS__
+#define OPENRCT2_PLATFORM           "iOS"
+#endif // __IPHONEOS__
+#endif // OPENRCT2_IOS
 #ifndef OPENRCT2_PLATFORM
     #error Unknown platform!
 #endif
