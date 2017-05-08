@@ -139,14 +139,6 @@ bool platform_file_exists(const utf8 *path)
 	platform_utf8_to_multibyte(path, buffer, MAX_PATH);
 	bool exists = access(buffer, F_OK) != -1;
     
-    struct stat st;
-    const int err = stat(buffer, &st);
-    exists = !err && S_ISREG(st.st_mode);
-
-    char cwd[1024];
-    getcwd(cwd, sizeof(cwd));
-    printf( "cwd: %s\n", cwd );
-    
 	log_verbose("file '%s' exists = %i", buffer, exists);
 	return exists;
 }
