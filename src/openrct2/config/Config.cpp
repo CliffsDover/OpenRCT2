@@ -139,7 +139,11 @@ namespace Config
             model->custom_currency_affix = reader->GetEnum<sint32>("custom_currency_affix", CURRENCY_SUFFIX, Enum_CurrencySymbolAffix);
             model->custom_currency_symbol = reader->GetCString("custom_currency_symbol", "Ctm");
             model->edge_scrolling = reader->GetBoolean("edge_scrolling", true);
+#ifdef OPENRCT2_IOS
+            model->fullscreen_mode = reader->GetSint32("fullscreen_mode", 1);
+#else
             model->fullscreen_mode = reader->GetSint32("fullscreen_mode", 0);
+#endif // OPENRCT2_IOS
             model->fullscreen_height = reader->GetSint32("fullscreen_height", -1);
             model->fullscreen_width = reader->GetSint32("fullscreen_width", -1);
             model->rct1_path = reader->GetCString("rct1_path", nullptr);
@@ -155,7 +159,11 @@ namespace Config
             model->window_height = reader->GetSint32("window_height", -1);
             model->window_snap_proximity = reader->GetSint32("window_snap_proximity", 5);
             model->window_width = reader->GetSint32("window_width", -1);
+#ifdef OPENRCT2_IOS
+            model->drawing_engine = reader->GetEnum<sint32>("drawing_engine", DRAWING_ENGINE_SOFTWARE_WITH_HARDWARE_DISPLAY, Enum_DrawingEngine);
+#else
             model->drawing_engine = reader->GetEnum<sint32>("drawing_engine", DRAWING_ENGINE_SOFTWARE, Enum_DrawingEngine);
+#endif // OPENRCT2_IOS
             model->uncap_fps = reader->GetBoolean("uncap_fps", false);
 
             // Default config setting is false until ghost trains are implemented #4540
@@ -172,15 +180,25 @@ namespace Config
             model->minimize_fullscreen_focus_loss = reader->GetBoolean("minimize_fullscreen_focus_loss", true);
 
              //Default config setting is false until the games canvas can be separated from the effect
-            model->day_night_cycle = reader->GetBoolean("day_night_cycle", false);
+#ifdef OPENRCT2_IOS
+            model->day_night_cycle = reader->GetBoolean("day_night_cycle", true);
 
+            model->enable_light_fx = reader->GetBoolean("enable_light_fx", true);
+#else
+            model->day_night_cycle = reader->GetBoolean("day_night_cycle", false);
+            
             model->enable_light_fx = reader->GetBoolean("enable_light_fx", false);
+#endif // OPENRCT2_IOS
             model->upper_case_banners = reader->GetBoolean("upper_case_banners", false);
             model->disable_lightning_effect = reader->GetBoolean("disable_lightning_effect", false);
             model->allow_loading_with_incorrect_checksum = reader->GetBoolean("allow_loading_with_incorrect_checksum", true);
             model->steam_overlay_pause = reader->GetBoolean("steam_overlay_pause", true);
             model->window_scale = reader->GetFloat("window_scale", 1.0f);
+#ifdef OPENRCT2_IOS
             model->scale_quality = reader->GetSint32("scale_quality", 1);
+#else
+            model->scale_quality = reader->GetSint32("scale_quality", 1);
+#endif // OPENRCT2_IOS
             model->use_nn_at_integer_scales = reader->GetBoolean("use_nn_at_integer_scales", true);
             model->show_fps = reader->GetBoolean("show_fps", false);
             model->trap_cursor = reader->GetBoolean("trap_cursor", false);
